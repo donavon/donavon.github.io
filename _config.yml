@@ -76,3 +76,14 @@ exclude:
     - LICENSE
     - README.md
     - CNAME
+
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://donavon.github.io/'
+  media: 'images'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+    
