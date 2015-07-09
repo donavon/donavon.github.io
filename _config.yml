@@ -102,6 +102,10 @@ prose:
               value: "apples"
             - name: "Bananas"
               value: "bananas"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
     _posts/static:
       - name: "layout"
         field:
