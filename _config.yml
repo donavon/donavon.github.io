@@ -107,6 +107,11 @@ prose:
         field:
           element: "text"
           label: "title"
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author"
+          value: "donavon"
       - name: "published"
         field:
           element: "checkbox"
