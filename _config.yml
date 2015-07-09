@@ -78,6 +78,12 @@ exclude:
     - README.md
     - CNAME
 
+defaults:
+  -
+    values:
+      layout: "post"
+      author: "donavon"
+
 prose:
   rooturl: '_posts'
   siteurl: 'http://donavon.github.io/'
