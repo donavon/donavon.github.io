@@ -58,7 +58,7 @@ highlighter: pygments
 permalink: /:title/
 
 # The release of Jekyll Now that you're using
-version: v2.5.3
+version: v1.1.0
 
 # Set the Sass partials directory, as we're using @imports
 sass:
@@ -95,10 +95,6 @@ prose:
     - /_includes
   metadata:
     _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
       - name: "tags"
         field:
           element: "multiselect"
@@ -117,7 +113,6 @@ prose:
         field:
           element: "text"
           label: "Author"
-          value: "donavon"
       - name: "published"
         field:
           element: "checkbox"
