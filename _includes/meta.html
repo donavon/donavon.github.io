@@ -7,6 +7,7 @@
     <link rel="icon" type="{{ site.favicon.type }}" href="{{ site.url }}/{{ site.favicon.url }}" />
     {% endif %}
 
+    <meta name="twitter:card" content="summary" />
     <meta name="twitter:image:src" content="{{ site.avatar }}" />
     <meta property="og:image" content="{{ site.avatar }}" />
 
@@ -28,4 +29,11 @@
     {% if page.title %}
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="twitter:title" content="{{ page.title }}" />
+    {% else %}
+    <meta property="og:title" content="{{ site.name }}" />
+    <meta property="twitter:title" content="{{ site.name }}" />
+    {% endif %}
+
+    {% if site.google_analytics %}
+    <meta name="google-analytics" content="{{ site.google_analytics }}">
     {% endif %}
