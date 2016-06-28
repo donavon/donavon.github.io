@@ -12,4 +12,4 @@ I'll add more about me as time goes on.
 
 ### Contact me
 
-[email@donavon.com](mailto:email@donavon.com)
+[email@donavon.com](mailto:js@donavon.com)
