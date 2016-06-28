@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+My name is Donavon West. I :heart: JavaScript! I'll use this forum to share some of my passion.
 
-### More Information
+Lately, I've been playing with React, so you will likely see a lot of posts on the subject.
 
-A place to include any other types of information that you'd like to include about yourself.
+I'll add more about me as time goes on.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[email@donavon.com](mailto:email@donavon.com)
