@@ -1,7 +1,9 @@
 ---
 published: true
 title: React Form Components
-tags: JS React
+tags:
+  - JavaScript
+  - React
 ---
 
 We’ve all looked at sample code on how to implement forms in React.
