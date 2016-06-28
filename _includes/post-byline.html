@@ -1,6 +1,6 @@
 <div class="date">
-    {{ item.date | date: "%B %e, %Y" }} by <a href="https://github.com/{{ item.author }}">@{{ item.author }}</a>
-    {% for tag in item.tags %}
+    {{ include.item.date | date: "%B %e, %Y" }} by <a href="https://github.com/{{ include.item.author }}">@{{ include.item.author }}</a>
+    {% for tag in include.item.tags %}
       <a class="tag-link" href="/tags/{{ tag }}">{{ tag }}</a>
     {% endfor %}
 </div>
