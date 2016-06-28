@@ -1,6 +1,7 @@
 ---
 published: true
 title: React Form Components
+tags: JS React
 ---
 
 We’ve all looked at sample code on how to implement forms in React.
@@ -74,7 +75,10 @@ The same way you did it back in the early conestoga days of the web.
 {% gist d7abef94077fc0135da55a7d704d7e5e UncontrolledStatelessReactComponent.js %}
 See this live on [CodePen](http://codepen.io/donavon/pen/yJMaOL?editors=0010)
 
-That's it. It's so simple that is should almost be a crime. I've shown you how to get the benefit of a
-stateless component and still use forms. Once you start using stateless components,
+## Conclusion
+
+So what type of React form should you use? My recommendation would be to use one of the Uncontrolled
+types, if only because of the browser issues. Personally, I gravitate towards stateless components
+because of the potential caching performance benefits. Once you start using stateless components,
 you won't want to go back, and your users will be the benefit from a smaller, speedier application.
 And you will the their hero.
