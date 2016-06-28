@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "You're up and running!"
-published: true
+published: false
 ---
 
 
@@ -15,5 +15,3 @@ Testing this:
 {% gist e536e38a3fe0226b143b index.js %}
 
 ![Inappropriatetouching-32448.jpg]({{site.baseurl}}/images/Inappropriatetouching-32448.jpg)
-
-
