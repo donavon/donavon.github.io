@@ -3,8 +3,8 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
-    {% if site.favicon %}
-    <link rel="icon" type="{{ site.favicon.type }}" href="{{ site.url }}/{{ site.favicon }}" />
+    {% if site.favicon.url %}
+    <link rel="icon" type="{{ site.favicon.type }}" href="{{ site.url }}/{{ site.favicon.url }}" />
     {% endif %}
 
     <meta name="twitter:image:src" content="{{ site.avatar }}" />
