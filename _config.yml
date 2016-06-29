@@ -118,9 +118,9 @@ prose:
           placeholder: "Choose Tags"
           options:
             - name: "JavaScript"
-              value: "JavaScript"
+              value: "javascript"
             - name: "React"
-              value: "React"
+              value: "react"
       - name: "title"
         field:
           element: "text"
