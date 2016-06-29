@@ -8,7 +8,7 @@ tags:
 
 We’ve all looked at sample code on how to implement forms in React.
 But in this article, I'm going to walk you through the three types of form components and explain the difference.
-I wouldn't be surprised if many of you didn't even know there were different kinds. Just just found out recently.
+I wouldn't be surprised if many of you didn't even know there were different kinds as it's not something discussed that often.
 
 I’m going to talk in particular about a Sign-In form. In the simplest case,
 we have three elements: a username or email address input, a password input, and a submit button.
@@ -71,7 +71,8 @@ they also don't have lifecycles. They are simple. They abide by the contract tha
 input `props`, they will render the same output. This makes them highly cachable in future versions of React.
 
 But there's one problem, stateless components don't support `ref`s. How then are we to harvest the
-form data? We do it the old fashioned way, we use the `event` object to find the form elements by name.
+form data? We do it the old fashioned way, we use the `event` object that we receive in `onSubmit`
+to find the form elements by it's `name`.
 The same way you did it back in the early conestoga days of the web.
 
 {% gist d7abef94077fc0135da55a7d704d7e5e UncontrolledStatelessReactComponent.js %}
