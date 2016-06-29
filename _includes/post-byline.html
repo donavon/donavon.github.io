@@ -1,6 +1,13 @@
 <div class="date">
-    {{ include.item.date | date: "%B %e, %Y" }} by <a href="https://github.com/{{ include.item.author }}">@{{ include.item.author }}</a>
-    {% for tag in include.item.tags %}
-      <a class="tag-link" href="/tags/{{ tag }}">{{ tag }}</a>
-    {% endfor %}
+    {{ include.item.date | date: "%B %e, %Y" }}
+
+    {% if include.item.author %}
+        by <a href="https://github.com/{{ include.item.author }}">@{{ include.item.author }}</a>
+    {% endif %}
+
+    <span class="tags">
+        {% for tag in include.item.tags %}
+          <a class="tag-link" href="/tags/{{ tag | uri_escape }}/">{{ tag }}</a>
+        {% endfor %}
+    </span>
 </div>
