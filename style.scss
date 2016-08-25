@@ -276,6 +276,65 @@ nav {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
+  text-align: center;
+}
+
+.sub-footer {
+    position: relative;
+    text-align: center;
+    margin: 10px 0;
+    color: #999;
+    font-size: 16px;
+}
+
+.sub-footer > * {
+    margin-right: 40px;
+    display: inline-block;
+}
+.sub-footer > *:last-child {
+    margin-right: 0;
+}
+
+.made-in-nyc {
+  text-decoration: none;
+  position: relative;
+  font-family: monospace;
+  font-size: 16px;
+  cursor: default;
+}
+.made-in-nyc:before,
+.made-in-nyc:after {
+  content: "♥";
+  font-size: 18px;
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  position: absolute;
+  top: -1px;
+  opacity: 0;
+  color: red;
+  font-family: "DejaVu Sans-serif";
+}
+.made-in-nyc:before {
+  left: -12px;
+}
+.made-in-nyc:after {
+  right: -12px;
+}
+.made-in-nyc:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+.made-in-nyc:hover:before,
+.made-in-nyc:hover:after {
+  opacity: 1;
+}
+.made-in-nyc:hover:before {
+  left: -18px;
+}
+.made-in-nyc:hover:after {
+  right: -18px;
 }
 
 footer {
