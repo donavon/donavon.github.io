@@ -84,4 +84,4 @@ So what type of React form should you use? My recommendation would be to use one
 types, if only because of the browser issues. Personally, I gravitate towards stateless components
 because of the potential caching performance benefits. Once you start using stateless components,
 you won't want to go back, and your users will be the benefit from a smaller, speedier application.
-And you will the their hero.
+And you will be their hero.
